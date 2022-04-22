@@ -1,0 +1,117 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+ header{
+    height: 100vh;
+}
+
+nav{
+    background-color: #15518F;
+}
+
+nav ul li a{
+    color: #F8DD58!important;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #ffffff!important;
+}
+
+#logo{
+    max-height: 4rem;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+
+
+.navbar{
+    height: 80px;
+}
+
+#navbar-nav{
+    margin-right: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    gap: 15px;
+}
+
+/* .navbar .active-nav a{
+    color: #4a8c9c!important;
+    font-weight: bolder;
+} */
+
+.hero-img-bg {
+    background-image: linear-gradient(to left bottom, #15528fbd, #4a8c9c80),url("../../assets/images/mockup.png");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: absolute;
+}  
+
+.hero-text{
+    /* text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F8DD58;
+    font-weight: bold; */
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    width: 85%;
+    padding-bottom: 2rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #F8DD58;
+}
+
+.hero-text h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.hero-text h3{
+    padding-top: 4%;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    0%  { background-color: #ffffff; }
+    50% { background-color: transparent; }
+    100%  { background-color: #ffffff; }
+  }
+.hero-text h3 span.cursor{
+    display: inline-block;
+    background-color: #ffffff;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+.hero-text h3 span.cursor.typing{
+    animation: none;
+}
+/* END OF THE HEADER AND NAVIGATION */
